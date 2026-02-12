@@ -9,7 +9,7 @@ export default defineConfig({
         name: 'Library Mobile',
         short_name: 'Library',
         start_url: '/',
-        display: 'standalone',
+        display: 'fullscreen',
         background_color: '#ffffff',
         theme_color: '#4CAF50',
         icons: [
