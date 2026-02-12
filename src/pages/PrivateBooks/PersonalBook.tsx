@@ -49,7 +49,7 @@ export function PersonalBooks({ mobile }: MobileProps) {
         const blob = new Blob([texto], { type: "text/plain" });
         const link = document.createElement("a");
         link.href = URL.createObjectURL(blob);
-        link.download = "meu_arquivo.txt"; // Você pode permitir que o usuário escolha
+        link.download = "meu_arquivo.txt";
         link.click();
         URL.revokeObjectURL(link.href);
     };
